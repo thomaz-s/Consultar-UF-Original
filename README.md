@@ -37,8 +37,8 @@ Existe a possibilidade de um veículo ter sua placa alterada após a comprovaç�
 Seguindo o exemplo anterior:
 
 * Um veículo com placa iniciando em **HTX** (Ceará) foi clonado
-* O Detran do estado atual (ex: Piauí) pode autorizar um novo emplacamento
-* Nesse caso, o veículo poderá receber uma nova sequência, como **PIA** (Piauí)
+* O Detran do estado atual (ex: Maranhão) pode autorizar um novo emplacamento
+* Nesse caso, o veículo receberá uma nova sequência do Maranhão, como **ROD**
 
 ---
 
