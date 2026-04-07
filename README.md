@@ -1,9 +1,9 @@
 # Consulta de Origem de Placas de Veículos
 
 Este aplicativo consulta o local onde um veículo foi originalmente emplacado, com base nas letras iniciais da placa.
+Está publicado no [Pages](https://thomaz-s.github.io/Consultar-UF-Original/)
 
-A fonte dos dados é o artigo da Wikipédia:
-👉 https://pt.wikipedia.org/wiki/Placas_de_identificação_de_veículos_no_Brasil#Distribuição_de_sequências_por_ordem_alfabética
+👉 A fonte dos dados é o artigo da [Wikipédia](https://pt.wikipedia.org/wiki/Placas_de_identificação_de_veículos_no_Brasil#Distribuição_de_sequências_por_ordem_alfabética)
 
 Sempre que há alguma atualização na fonte, é necessário atualizar manualmente os dados na constante `sequencias`.
 
