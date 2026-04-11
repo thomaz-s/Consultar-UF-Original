@@ -44,10 +44,7 @@ Seguindo o exemplo anterior:
 
 ### 🚗 Veículos antigos
 
-Veículos muito antigos, que ainda utilizavam placas de **duas letras** (modelo abolido no início da década de 1990), podem apresentar inconsistências:
-
-* Caso tenham sido reemplacados em outro estado
-* Receberão uma sequência correspondente **à nova UF**, e não à original
+Veículos muito antigos, que ainda utilizavam placas de **duas letras** (modelo abolido no início da década de 1990), podem apresentar inconsistências: caso tenham feito a mudança de placa em outro estado, receberam uma sequência correspondente **à nova UF**, e não à original
 
 ---
 
