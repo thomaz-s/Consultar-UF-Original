@@ -19,13 +19,18 @@
 
         body {
             font-family: "Google Sans", 'Times New Roman';
+            display: flex;
+            justify-content: center;
         }
 
         form {
-            padding: 20px 25px;
+            background-color: #fafcff;
+            margin: 25px;
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            width: 250px;
+            max-width: 350px;
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -77,6 +82,10 @@
             font-size: 16px;
             color: #333;
             list-style: none;
+        }
+
+        .vermelho{
+            color: #cb0c0c;
         }
 
         #separador{
@@ -337,7 +346,7 @@
             {"inicial": "TVK", "final": "TVK", "estado": "Distrito Federal"},
             {"inicial": "UAI", "final": "UAI", "estado": "Minas Gerais"}
             ]
-        
+        const textoNaoUtilizada = "Não utilizada"
         let ultimasConsultas = [];
 
         const input_placa = document.getElementById("placa");
@@ -355,6 +364,10 @@
             ultimasConsultas.forEach((item, index) => {
                 const novoResultado = document.createElement("li");
                 novoResultado.innerText = item.placa + ": " + item.resultado;
+
+                if (item.resultado == textoNaoUtilizada){
+                    novoResultado.classList.add("vermelho");
+                }
 
                 if ((index == 1) & ultimasConsultas.length > 1){
 
